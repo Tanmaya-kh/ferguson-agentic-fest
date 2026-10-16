@@ -1,0 +1,17 @@
+# keys and passwords never go in this repo
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# run output
+out/
+*.log
+.DS_Store
