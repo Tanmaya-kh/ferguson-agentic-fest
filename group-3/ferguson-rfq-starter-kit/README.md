@@ -209,4 +209,4 @@ There is no captcha solving or fingerprint spoofing. When a lookup is blocked, t
 - **Brand:** the header copies ferguson.com: the `#03324C` utility bar, the `#00446A` main header, the real white Ferguson logo (`ferguson-light.svg` from ferguson.com) and `#1379C8` actions. The extension icons come from the logo's symbol. The Brand Connect guide needs a login, so `frontend/src/theme/tokens.css` is marked *TODO verify*.
 - **Competitor part numbers** become `Not found` with the reason "not searched". The web-search competitor finder (option 1) is not in this version.
 - **Time left** is a moving average per kind of work. It starts rough and improves as jobs run; with many jobs competing for ferguson.com it can be optimistic.
-- **Not built yet:** user accounts (one shared API key; the editor's name is entered in the header), and the Azure Function. `rfq.pipeline.run` is ready to be wrapped by `function_app.py` in offline mode.
+- **Not built yet:** user accounts (one shared API key; the editor's name is entered in the header), the competitor finder (option 1), and an Azure Function deployment. `rfq.pipeline.run` is ready to be wrapped in offline mode.
