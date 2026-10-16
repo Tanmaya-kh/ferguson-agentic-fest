@@ -1,0 +1,7 @@
+# Redis for local development (job queue, cache, live updates). The database is a SQLite file
+# (out/rfq.sqlite3), so no database server is needed. The API and the worker run on the host,
+# because the live ferguson.com lookup talks to your own Chrome on 127.0.0.1:9333.
+services:
+  redis:
+    image: redis:7
+    ports: ["6379:6379"]
